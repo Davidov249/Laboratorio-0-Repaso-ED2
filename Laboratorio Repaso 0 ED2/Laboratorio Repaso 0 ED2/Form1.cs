@@ -23,5 +23,10 @@ namespace Laboratorio_Repaso_0_ED2
         {
 
         }
+
+        private void btn_Clista_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
