@@ -26,6 +26,15 @@ namespace Laboratorio_Repaso_0_ED2
 
         private void btn_Clista_Click(object sender, EventArgs e)
         {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string path = openFileDialog1.FileName;
+                axWindowsMediaPlayer1.URL = path;
+            }
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
 
         }
     }
