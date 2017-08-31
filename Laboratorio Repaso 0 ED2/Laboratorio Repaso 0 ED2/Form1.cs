@@ -68,7 +68,7 @@ namespace Laboratorio_Repaso_0_ED2
             temporal = listas[listaactual];
             tamañolista = temporal.Count;
             ListaActual.Items.Clear();
-            ListaActual.Items.AddRange(listas[listaactual].ToArray());
+            ListaActual.Items.AddRange(temporal.ToArray());
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -90,11 +90,16 @@ namespace Laboratorio_Repaso_0_ED2
         private void btn_OrdAs_Click(object sender, EventArgs e)
         {
             temporal.Sort();
+            ListaActual.Items.Clear();
+            ListaActual.Items.AddRange(temporal.ToArray());
         }
 
         private void btn_OrdDes_Click(object sender, EventArgs e)
         {
-
+            temporal.Sort();
+            temporal.Reverse();
+            ListaActual.Items.Clear();
+            ListaActual.Items.AddRange(temporal.ToArray());
         }
     }
 }
