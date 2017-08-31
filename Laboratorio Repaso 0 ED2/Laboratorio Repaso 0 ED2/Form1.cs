@@ -22,7 +22,6 @@ namespace Laboratorio_Repaso_0_ED2
         public List<string> temporal = new List<string>();
         public string listaactual = "";
         public int tamañolista = 0;
-        //public List<>
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -46,14 +45,14 @@ namespace Laboratorio_Repaso_0_ED2
                     tamañolista = temporal.Count;
 
                 }
-                txt1.Clear();
+                
             }
             else
             {
                 
             }
-            
-            
+            txtNombreL.Clear();
+
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
