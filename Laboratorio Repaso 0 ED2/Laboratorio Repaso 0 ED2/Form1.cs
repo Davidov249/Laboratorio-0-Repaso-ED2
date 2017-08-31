@@ -36,13 +36,17 @@ namespace Laboratorio_Repaso_0_ED2
                 string nombrelista = txtNombreL.Text;
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
+                    ListaActual.Items.Clear();
                     List<string> playlist = openFileDialog1.FileNames.ToList();
                     ListaActual.Items.AddRange(playlist.ToArray());
                     listas.Add(nombrelista, playlist);
-                    comboBox1.Items.AddRange(playlist.ToArray());
+                    listaactual = nombrelista;
+                    comboBox1.Items.Add(listaactual);
                     temporal = listas[nombrelista];
                     tamañolista = temporal.Count;
+
                 }
+                txt1.Clear();
             }
             else
             {
@@ -64,7 +68,7 @@ namespace Laboratorio_Repaso_0_ED2
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listaactual = comboBox1.SelectedText;
+            listaactual = comboBox1.SelectedItem.ToString();
             temporal = listas[listaactual];
             tamañolista = temporal.Count;
             ListaActual.Items.Clear();
