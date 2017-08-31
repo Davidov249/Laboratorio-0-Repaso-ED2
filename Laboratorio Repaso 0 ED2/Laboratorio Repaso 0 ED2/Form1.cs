@@ -15,7 +15,6 @@ namespace Laboratorio_Repaso_0_ED2
         public Form1()
         {
             InitializeComponent();
-            //List<List<string>> listas = new List<List<string>>();
             
 
         }
@@ -37,8 +36,6 @@ namespace Laboratorio_Repaso_0_ED2
                 string nombrelista = txtNombreL.Text;
                 if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
-                    //string path = openFileDialog1.FileName;
-                    //axWindowsMediaPlayer1.URL = path;
                     List<string> playlist = openFileDialog1.FileNames.ToList();
                     ListaActual.Items.AddRange(playlist.ToArray());
                     listas.Add(nombrelista, playlist);
@@ -70,22 +67,34 @@ namespace Laboratorio_Repaso_0_ED2
             listaactual = comboBox1.SelectedText;
             temporal = listas[listaactual];
             tamañolista = temporal.Count;
+            ListaActual.Items.Clear();
+            ListaActual.Items.AddRange(listas[listaactual].ToArray());
         }
 
         private void btn1_Click(object sender, EventArgs e)
         {
             string busqueda = txt1.Text;
-            for (int i = 0; i < tamañolista; i++)
+            temporal = listas[listaactual];
+            tamañolista = temporal.Count;
+            if (ListaActual.FindString(busqueda) == -1)
             {
-                if (listaactual[tamañolista].Equals(busqueda))
-                {
-                    ListaActual.SetSelected(tamañolista, true);
-                }
-                else
-                {
-                    MessageBox.Show("No se encontro la cancion", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("No se encontro la cancion", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            else
+            {
+                ListaActual.SelectedIndex = ListaActual.FindString(busqueda);
+                MessageBox.Show("Cancion encontrada", "Enhorabuena", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void btn_OrdAs_Click(object sender, EventArgs e)
+        {
+            temporal.Sort();
+        }
+
+        private void btn_OrdDes_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

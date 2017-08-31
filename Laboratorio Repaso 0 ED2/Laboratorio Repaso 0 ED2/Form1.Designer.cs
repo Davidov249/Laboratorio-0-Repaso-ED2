@@ -136,6 +136,7 @@
             this.btn_OrdAs.TabIndex = 8;
             this.btn_OrdAs.Text = "Ordenar Ascendente";
             this.btn_OrdAs.UseVisualStyleBackColor = true;
+            this.btn_OrdAs.Click += new System.EventHandler(this.btn_OrdAs_Click);
             // 
             // btn_OrdDes
             // 
@@ -145,6 +146,7 @@
             this.btn_OrdDes.TabIndex = 9;
             this.btn_OrdDes.Text = "Ordenar Descendente";
             this.btn_OrdDes.UseVisualStyleBackColor = true;
+            this.btn_OrdDes.Click += new System.EventHandler(this.btn_OrdDes_Click);
             // 
             // ListaActual
             // 
