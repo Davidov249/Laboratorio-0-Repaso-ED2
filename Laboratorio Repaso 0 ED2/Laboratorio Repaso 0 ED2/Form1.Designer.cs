@@ -65,6 +65,7 @@
             this.btn1.TabIndex = 1;
             this.btn1.Text = "Buscar";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // lb1
             // 
@@ -104,7 +105,7 @@
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(12, 59);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(497, 261);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(368, 261);
             this.axWindowsMediaPlayer1.TabIndex = 5;
             this.axWindowsMediaPlayer1.Enter += new System.EventHandler(this.axWindowsMediaPlayer1_Enter);
             // 
@@ -125,6 +126,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(497, 24);
             this.comboBox1.TabIndex = 7;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // btn_OrdAs
             // 
@@ -196,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 642);
+            this.ClientSize = new System.Drawing.Size(1021, 642);
             this.Controls.Add(this.txtNombreL);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);

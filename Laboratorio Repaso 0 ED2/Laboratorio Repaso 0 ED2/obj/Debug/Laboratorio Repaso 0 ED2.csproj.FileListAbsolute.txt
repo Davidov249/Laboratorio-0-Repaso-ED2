@@ -1,0 +1,15 @@
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\bin\Debug\Laboratorio Repaso 0 ED2.exe.config
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\bin\Debug\Laboratorio Repaso 0 ED2.exe
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\bin\Debug\Laboratorio Repaso 0 ED2.pdb
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\bin\Debug\Interop.WMPLib.dll
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.csprojResolveAssemblyReference.cache
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Interop.WMPLib.dll
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.csproj.ResolveComReference.cache
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio_Repaso_0_ED2.Form1.resources
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio_Repaso_0_ED2.Properties.Resources.resources
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.csproj.GenerateResource.Cache
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.csproj.CoreCompileInputs.cache
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.exe
+C:\Users\jose\Documents\GitHub\Laboratorio-0-Repaso-ED2\Laboratorio Repaso 0 ED2\Laboratorio Repaso 0 ED2\obj\Debug\Laboratorio Repaso 0 ED2.pdb
